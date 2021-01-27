@@ -163,7 +163,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1493.0, 429.5, 99.0, 22.0 ],
+					"patching_rect" : [ 1500.0, 429.5, 99.0, 22.0 ],
 					"text" : "r configFileName"
 				}
 
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.0, 92.0, 168.0, 22.0 ],
+					"patching_rect" : [ 377.5, 16.0, 168.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 367.5, 90.0, 59.0, 38.0 ],
@@ -215,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 105.0, 168.0, 22.0 ],
+					"patching_rect" : [ 377.5, 47.0, 168.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 296.0, 90.0, 59.0, 38.0 ],
@@ -410,7 +410,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2161.5, 265.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1998.5, 243.0, 52.0, 22.0 ],
 					"text" : "r attrList"
 				}
 
@@ -422,7 +422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 2128.5, 481.5, 83.0, 22.0 ],
+					"patching_rect" : [ 1965.5, 459.5, 83.0, 22.0 ],
 					"text" : "unpack 0 sym"
 				}
 
@@ -434,7 +434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 2128.5, 451.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1965.5, 429.0, 56.0, 22.0 ],
 					"text" : "listfunnel"
 				}
 
@@ -442,13 +442,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-165",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2128.5, 331.0, 52.0, 49.0 ],
-					"text" : "ASW LEV ARW"
+					"patching_rect" : [ 1965.5, 309.0, 52.0, 22.0 ]
 				}
 
 			}
@@ -1470,8 +1468,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1290.0, 467.0, 222.0, 22.0 ],
-					"text" : "sprintf write \\\"%sTestOutput/%s_%s.txt\\\""
+					"patching_rect" : [ 1290.0, 467.0, 229.0, 22.0 ],
+					"text" : "sprintf write \\\"%sTest_Output/%s_%s.txt\\\""
 				}
 
 			}
@@ -2791,8 +2789,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 362.0, 199.0, 22.0 ],
-									"text" : "sprintf write \\\"%sTestOutput/%s.txt\\\""
+									"patching_rect" : [ 80.0, 362.0, 206.0, 22.0 ],
+									"text" : "sprintf write \\\"%sTest_Output/%s.txt\\\""
 								}
 
 							}
@@ -3132,7 +3130,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2192.5, 529.5, 77.0, 22.0 ],
+					"patching_rect" : [ 2029.5, 507.5, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",

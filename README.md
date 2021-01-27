@@ -3,6 +3,13 @@
 
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
 2. Install Max/MSP: https://cycling74.com/downloads You don't need a subscription in order to run the test. After the 30 day trial you can still run any patch but without being able to save.
+3. Install the APL SOFA-for-Max object: https://github.com/APL-Huddersfield/SOFA-for-Max.
+
+  - Download the ZIP file:  
+  ![sofa_download](docs/sofa_download_edit.png)
+
+  - Extract the files and move the content of the "Max Objects" folder into a newly created folder in Max/Library
+  ![sofa_install ](docs/sofa_install_edit.png)
 
 
 ## Connecting the head tracker to Max
@@ -23,7 +30,6 @@
 2. Press the button located on top of the head tracker for longer than 1 second.
 3. Position you head again to look down at the floor.
 4. Short-press the calibration button (< 1s).
-5. If the tracker starts drifting after a while, you can always press the button shortly (< 1s) to re-centre.
 
 - Now the head tracker is calibrated for the specific position it is currently mounted. It is recommended you do follow these steps every time you start a test or take the headphones off.
 

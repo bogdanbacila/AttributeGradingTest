@@ -2,7 +2,7 @@
 	"name" : "ObjectiveGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3695217361,
+	"modificationdate" : 3695286183,
 	"viewrect" : [ 1160.0, 220.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,11 @@
 			}
 ,
 			"GradingTestPilot.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"outMatrixGenerator.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -55,7 +60,7 @@
 				"local" : 1
 			}
 ,
-			"outMatrixGenerator.maxpat" : 			{
+			"lookAboveThisDir.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -15,7 +15,7 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 
 1. Connect the head tracker to the computer using a USB-Mini-B cable.
 2. Locate the "Head Tracking" section in the upper-left corner of the Max patch.
-3. Select the "wchusbserial1410" option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
+3. Select the **"wchusbserial1410"** option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
 4. Activate the head tracking by pressing the "Tracker On/Off" button.
 
 ![ht_connect](docs/ht_connect.png)
@@ -48,12 +48,12 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 
 ## Running the listening test
 
-1. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
+1. Make sure the "Audio On/Off" button is active.
+2. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
 
 ![config_file](docs/config_file.png)
 
-2. Type your name in the name box:
-3. Press **"Reset and Randomize"**
-4. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
-5. When you are finished, don't forget to press the **"Stop"** button.
-  
+3. Type your name in the name box:
+4. Press **"Reset and Randomize"**
+5. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
+6. When you are finished, don't forget to press the **"Stop"** button.

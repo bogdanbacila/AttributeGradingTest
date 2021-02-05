@@ -3,13 +3,12 @@
 
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
 2. Install Max/MSP: https://cycling74.com/downloads You don't need a subscription in order to run the test. After the 30 day trial you can still run any patch but without being able to save.
-3. Install the APL SOFA-for-Max object: https://github.com/APL-Huddersfield/SOFA-for-Max.
 
-  - Download the ZIP file:  
-  ![sofa_download](docs/sofa_download_edit.png)
+## Opening the test
 
-  - Extract the files and move the content of the "Max Objects" folder into a newly created folder in Max/Library
-  ![sofa_install ](docs/sofa_install_edit.png)
+To launch the listening test please locate the "ObjectiveGradingTest.maxproj" and open it using Max. **Please note that the test will take a a few moments to load, sometimes even up to more than a minute.**
+
+![project_location](docs/project_location.png)
 
 
 ## Connecting the head tracker to Max
@@ -17,10 +16,11 @@
 1. Connect the head tracker to the computer using a USB-Mini-B cable.
 2. Locate the "Head Tracking" section in the upper-left corner of the Max patch.
 3. Select the "wchusbserial1410" option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
+4. Activate the head tracking by pressing the "Tracker On/Off" button.
 
 ![ht_connect](docs/ht_connect.png)
 
-4. Activate the head tracking by pressing the "Tracker On/Off" button.
+
 
 ## Calibrating the head tracker
 
@@ -37,10 +37,23 @@
 
 - Locate the position indicator in the top-centre of the Max patch. This will show you when to reposition your head if it goes out of the +/- 7° range.
 
-- The green indicator tells you that that your head is in the central reposition
+- The green indicator tells you that that your head is in the central position.
 
 ![ht_indicator_ct](docs/ht_indicator_ct.png)
 
-- The two red arrows will indicate in which direction to rotate your head such that it is in the central position again
+- The two red arrows will indicate in which direction to rotate your head such that it is in the central position again.
 
 ![ht_indicator_left](docs/ht_indicator_left.png)
+
+
+## Running the listening test
+
+1. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
+
+![config_file](docs/config_file.png)
+
+2. Type your name in the name box:
+3. Press **"Reset and Randomize"**
+4. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
+5. When you are finished, don't forget to press the **"Stop"** button.
+  

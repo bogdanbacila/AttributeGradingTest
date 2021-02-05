@@ -124,13 +124,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.5, 368.5, 239.0, 49.0 ],
-					"text" : "prefix \"Macintosh HD:/Users/bogdan/Google Drive/PhD/Year 2/ObjectiveGradingTest/headphone_eq/\""
+					"patching_rect" : [ 179.5, 368.5, 239.0, 22.0 ]
 				}
 
 			}
@@ -174,7 +172,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-1",
-					"items" : [ "akgK702_48k.wav", ",", "beyerdynamicDT770_80ohm_48k.wav", ",", "heq702.wav", ",", "sennheiserHD650_48k.wav" ],
+					"items" : [ "akgK702_48k.wav", ",", "beyerdynamicDT770_80ohm_48k.wav", ",", "sennheiserHD650_48k.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -195,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 685.5, 517.0, 103.0, 22.0 ],
+					"patching_rect" : [ 685.5, 523.0, 103.0, 22.0 ],
 					"text" : "buffer~ inverseEq"
 				}
 

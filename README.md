@@ -8,7 +8,7 @@
 
 To launch the listening test please locate the "ObjectiveGradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
 
-- If no patcher opens up automatically upon project load, please double click the "ObjectiveTestPilot" patcher from the project menu.
+- If no patcher opens up automatically upon project load, please double click the "GradingTestPilot" patcher from the project menu.
 
 ![project_location](docs/project_location.png)
 

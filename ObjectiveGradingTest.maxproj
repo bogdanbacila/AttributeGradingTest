@@ -2,7 +2,7 @@
 	"name" : "ObjectiveGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3695717215,
+	"modificationdate" : 3695731726,
 	"viewrect" : [ 1160.0, 220.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -93,19 +93,23 @@
 ,
 		"externals" : 		{
 			"multiconvolve~.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"sofa~.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"sofa.hrir~.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"vbap.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"multiconvolve~.mxe" : 			{

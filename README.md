@@ -6,7 +6,9 @@
 
 ## Opening the test
 
-To launch the listening test please locate the "ObjectiveGradingTest.maxproj" and open it using Max. **Please note that the test will take a a few moments to load, sometimes even up to more than a minute.**
+To launch the listening test please locate the "ObjectiveGradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
+
+- If no patcher opens up automatically upon project load, please double click the "ObjectiveTestPilot" patcher from the project menu.
 
 ![project_location](docs/project_location.png)
 
@@ -48,12 +50,13 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 
 ## Running the listening test
 
-1. Make sure the "Audio On/Off" button is active.
-2. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
+1. Make sure you have selected your audio interface as an output device and set the sampling rate to 48kHz from the "Options -> Audio Status" menu.
+2. Make sure the "Audio On/Off" button is active.
+3. To run a listening test you need to first drag and drop a test configuration file from the "Test_Configuration" folder, into the box located on the left of the screen.
 
 ![config_file](docs/config_file.png)
 
-3. Type your name in the name box:
-4. Press **"Reset and Randomize"**
-5. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
-6. When you are finished, don't forget to press the **"Stop"** button.
+4. Type your name in the name box:
+5. Press **"Reset and Randomize"**
+6. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
+7. When you are finished, don't forget to press the **"Stop"** button.

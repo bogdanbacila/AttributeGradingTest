@@ -1,14 +1,23 @@
 # Objective grading test for spatial impression attributes in a concert hall
 
 TODO:
-- [ ] Calibrate patch loudness to hand-rubbing file. (65 dBA).
-- [ ] Add loudness calibration instructions.
+- [x] Calibrate patch loudness to hand-rubbing file. (65 dBA)
+- [x] Add loudness calibration instructions.
+- [ ] Add test-specific instructions.
 
 
 ## Prerequisites:
 
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
 2. Install Max/MSP: https://cycling74.com/downloads You don't need a subscription in order to run the test. After the 30 day trial you can still run any patch but without being able to save.
+
+## Calibrating the playback level
+- Before you start the test, you need to calibrate the playback level of your audio interface using the calibration file handrubbing_calibrated.wav, which is included on the top level of the "ObjectiveGradingTest" folder.
+- The file is a recording of hands rubbed at a high strength and moderately high speed.
+
+1. Play the file over the headphones for a few seconds.
+2. Take the headphones off, and rub your hands up and down, right in front of your nose, with both hands pointing straight up. Do this at a similar speed to what you hear in the recording.
+3. Repeat the above process to compare the recording and your own hand rubbing sound in terms of perceived loudness, and adjust the playback level of your audio interface to match the loudness.
 
 ## Opening the test
 
@@ -27,7 +36,6 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 4. Activate the head tracking by pressing the "Tracker On/Off" button.
 
 ![ht_connect](docs/ht_connect.png)
-
 
 
 ## Calibrating the head tracker

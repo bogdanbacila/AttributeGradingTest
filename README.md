@@ -3,7 +3,7 @@
 TODO:
 - [x] Calibrate patch loudness to hand-rubbing file. (65 dBA)
 - [x] Add loudness calibration instructions.
-- [ ] Add test-specific instructions.
+- [x] Add test-specific instructions.
 
 
 ## Prerequisites:
@@ -71,6 +71,38 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 ![config_file](docs/config_file.png)
 
 4. Type your name in the name box:
+5. Press **"Start Pilot"**
 5. Press **"Reset and Randomize"**
 6. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
-7. When you are finished, don't forget to press the **"Stop"** button.
+7. When you are finished, don't forget to press the **"Stop"** button. This will save your results in the "Test_Ouptut" folder.
+
+## Test structure
+
+- The test is split into 6 short sessions, each with a corresponding configuration file beginning with "pilotConfig".
+- For each session, please follow previous steps 3-7 until all sessions are finished.
+
+- You will be presented with a number of test trials, comprised of two listening positions, "A" and "B". The goal of the test is to compare the two stimuli and indicate which one is perceptually greater (wider, further, louder depending on the assessed attribute)
+- Please listen carefully to both stimuli, by clicking on them. (space bar - Play/Pause)
+- To compare the pair of stimuli please drag the slider to the side which corresponds to the stimulus which has a greater magnitude of the assessed attribute (e.g. when comparing A and B, if A has a perceptually larger ASW please drag the slider towards A and vice-versa).
+  - *During the pilot test there will be sliders having either one or three steps on each side of the middle point.
+  - When using the slider with three steps, please rate the magnitude of the change as well (e.g. low/medium/high difference in the perceived ASW between the stimuli).
+  - The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
+
+
+-  It is important when comparing the stimuli to focus **only** on the assessed attribute. Please disregard changes in head orientation or position unless the attribute is assessing them.
+
+## Test attributes
+
+- There are 3 attributes to be assessed:
+  * ASW (Apparent Source Width)
+  * ASD (Apparent Source Distance)
+  * PSL (Perceived Source Loudness)
+
+**Attribute definitions:**
+
+- ASW:
+  * The perceived impression of width given by the sound source fused with the early reflections. (Narrow - Wide).
+- ASD:
+  * The perceived distance between the listener and the sound source. (Close - Far)
+- PSL:
+  * The point-source loudness perceived at different locations. (Quiet - Loud).

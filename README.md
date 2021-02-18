@@ -94,14 +94,14 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 ## Test attributes
 
 - There are 3 attributes to be assessed:
-  * ASW (Apparent Source Width)
+  * LEV (Listener Envelopment)
   * ASD (Apparent Source Distance)
   * PSL (Perceived Source Loudness)
 
 **Attribute definitions:**
 
-- ASW:
-  * The perceived impression of width given by the sound source fused with the early reflections. (Narrow - Wide).
+- LEV:
+  * The feeling of being surrounded by the reverberant field. (Less - More)
 - ASD:
   * The perceived distance between the listener and the sound source. (Close - Far)
 - PSL:

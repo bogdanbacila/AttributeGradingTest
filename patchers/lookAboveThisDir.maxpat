@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 572.0, 171.0, 739.0, 799.0 ],
+		"rect" : [ 572.0, 171.0, 849.0, 799.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-25",
@@ -104,7 +103,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 386.0, 59.0, 22.0 ],
+					"patching_rect" : [ 528.0, 386.0, 73.0, 22.0 ],
 					"text" : "r #0-os"
 				}
 
@@ -117,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 339.0, 137.0, 35.0 ],
+					"patching_rect" : [ 528.0, 339.0, 149.0, 35.0 ],
 					"text" : ";\rmax getsystem #0-os"
 				}
 
@@ -142,7 +141,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 472.0, 31.0, 30.0, 30.0 ]
 				}
 
@@ -361,6 +360,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-117", 3 ]
 				}
 
 			}

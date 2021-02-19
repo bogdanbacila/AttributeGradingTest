@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 76.0, 79.0, 1379.0, 967.0 ],
+		"rect" : [ 74.0, 79.0, 1381.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -469,13 +469,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-99",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1210.0, 555.0, 381.0, 49.0 ],
-					"text" : "write \"Macintosh HD:/Users/bogdan/Google Drive/PhD/Year 2/ObjectiveGradingTest/Test_Output/Bogdan_pilotConfig_ASD_st3.txt\""
+					"patching_rect" : [ 1210.0, 555.0, 381.0, 22.0 ]
 				}
 
 			}
@@ -900,8 +898,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1965.5, 309.0, 52.0, 22.0 ],
-					"text" : "ASD_3"
+					"patching_rect" : [ 1965.5, 309.0, 52.0, 22.0 ]
 				}
 
 			}
@@ -3773,7 +3770,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.0, 658.0, 50.0, 22.0 ],
-					"text" : "3 12"
+					"text" : "5 8"
 				}
 
 			}
@@ -3785,7 +3782,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 938.0, 620.0, 50.0, 22.0 ],
-					"text" : "5"
+					"text" : "6"
 				}
 
 			}

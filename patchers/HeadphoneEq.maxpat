@@ -136,13 +136,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.5, 368.5, 239.0, 49.0 ],
-					"text" : "prefix \"Macintosh HD:/Users/bogdan/Google Drive/PhD/Year 2/ObjectiveGradingTest/headphone_eq/\""
+					"patching_rect" : [ 179.5, 368.5, 239.0, 22.0 ]
 				}
 
 			}
@@ -186,7 +184,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-1",
-					"items" : "akgK702_48k_crinacle.wav",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

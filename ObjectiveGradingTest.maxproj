@@ -2,7 +2,7 @@
 	"name" : "ObjectiveGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3696241391,
+	"modificationdate" : 3697196588,
 	"viewrect" : [ 1160.0, 220.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -24,6 +24,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"outMatrixGenerator.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"TestSofaConvolver.maxpat" : 			{
@@ -65,11 +70,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"outMatrixGenerator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -88,18 +88,18 @@
 				}
 
 			}
+,
+			"Scale.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
 		"data" : 		{
 			"pilotPairs.txt" : 			{
 				"kind" : "textfile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/Test_Configuration ",
-					"projectrelativepath" : "./Test_Configuration "
-				}
-
+				"local" : 1
 			}
 
 		}

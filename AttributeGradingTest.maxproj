@@ -1,9 +1,9 @@
 {
-	"name" : "ObjectiveGradingTest",
+	"name" : "AttributeGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3697196588,
-	"viewrect" : [ 1160.0, 220.0, 411.0, 500.0 ],
+	"modificationdate" : 3698843205,
+	"viewrect" : [ 1037.0, 165.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,12 +18,6 @@
 			"Convolve_vbap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
-			}
-,
-			"GradingTestPilot.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
 			}
 ,
 			"outMatrixGenerator.maxpat" : 			{
@@ -70,6 +64,12 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"main.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
 
 		}
 ,
@@ -83,7 +83,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/patchers",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -129,7 +129,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -139,7 +139,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -149,7 +149,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -159,7 +159,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -169,7 +169,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -179,7 +179,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -189,7 +189,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -199,7 +199,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -209,7 +209,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -219,7 +219,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -229,7 +229,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/ObjectiveGradingTest/externals",
+					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/externals",
 					"projectrelativepath" : "./externals"
 				}
 

@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1450.5, 299.0, 88.0, 22.0 ],
+					"text" : "s subjectName"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -91,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 658.0, 227.0, 29.0 ],
+					"patching_rect" : [ 294.0, 658.0, 229.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1010.0, 184.3792724609375, 281.0, 29.0 ]
 				}
@@ -223,7 +234,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -527,7 +537,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1229.5, 519.0, 81.0, 22.0 ],
+					"patching_rect" : [ 1229.5, 558.0, 81.0, 22.0 ],
 					"text" : "prepend write"
 				}
 
@@ -539,7 +549,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1229.5, 482.0, 298.0, 22.0 ],
+					"patching_rect" : [ 1229.5, 521.0, 298.0, 22.0 ],
 					"text" : "combine filepath / Test_Output / name _ configFile . txt"
 				}
 
@@ -551,7 +561,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1229.5, 444.0, 113.0, 22.0 ],
+					"patching_rect" : [ 1229.5, 483.0, 113.0, 22.0 ],
 					"text" : "lookAboveThisDir 1"
 				}
 
@@ -575,7 +585,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1210.0, 555.0, 381.0, 22.0 ]
+					"patching_rect" : [ 1210.0, 594.0, 381.0, 22.0 ]
 				}
 
 			}
@@ -717,7 +727,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1438.75, 447.5, 99.0, 22.0 ],
+					"patching_rect" : [ 1438.75, 486.5, 99.0, 22.0 ],
 					"text" : "r configFileName"
 				}
 
@@ -996,13 +1006,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-165",
-					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1965.5, 309.0, 18.0, 76.0 ],
-					"text" : "ASD_1"
+					"patching_rect" : [ 1965.5, 309.0, 77.0, 22.0 ]
 				}
 
 			}
@@ -3109,7 +3117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1229.5, 367.5, 73.0, 22.0 ],
-					"text" : "Bogdan"
+					"text" : "bang"
 				}
 
 			}
@@ -3146,7 +3154,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1371.0, 188.0, 147.0, 42.0 ],
+					"patching_rect" : [ 1371.0, 185.0, 147.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 341.0, 204.0, 39.0 ]
 				}
@@ -3408,7 +3416,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 729.0, 492.0, 875.0, 588.0 ],
+						"rect" : [ 960.0, 332.0, 875.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3437,6 +3445,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 178.0, 277.0, 86.0, 22.0 ],
+									"text" : "r subjectName"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -3463,11 +3483,11 @@
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "newobj",
-									"numinlets" : 7,
+									"numinlets" : 9,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 33.0, 321.0, 266.0, 22.0 ],
-									"text" : "combine filepath / Test_Output / attributeOut . txt"
+									"patching_rect" : [ 33.0, 321.0, 309.0, 22.0 ],
+									"text" : "combine filepath / Test_Output / name _ attributeOut . txt"
 								}
 
 							}
@@ -3775,6 +3795,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 4 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"source" : [ "obj-57", 1 ]
 								}
@@ -3810,7 +3837,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 4 ],
+									"destination" : [ "obj-6", 6 ],
 									"source" : [ "obj-8", 1 ]
 								}
 
@@ -4053,7 +4080,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1042.0, 658.0, 50.0, 22.0 ],
-					"text" : "1 5"
+					"text" : "3 11"
 				}
 
 			}
@@ -4065,7 +4092,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 938.0, 620.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "29"
 				}
 
 			}
@@ -6738,6 +6765,57 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"varname" : "ASWmess[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "LEV",
+					"varname" : "LEVmess[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "ARW",
+					"varname" : "ARWmess[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "ASD_1",
+					"varname" : "ASD_1mess"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -7063,6 +7141,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
 					"source" : [ "obj-159", 0 ]
 				}
@@ -7077,8 +7162,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-163", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -7086,7 +7179,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-189", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-161", 0 ]
 				}
 

@@ -1,15 +1,17 @@
-# Objective grading test for spatial impression attributes in a concert hall
-
-TODO:
-- [x] Calibrate patch loudness to hand-rubbing file. (65 dBA)
-- [x] Add loudness calibration instructions.
-- [x] Add test-specific instructions.
-
+# Subjective grading test for spatial impression attributes in a concert hall
 
 ## Prerequisites:
 
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
 2. Install Max/MSP: https://cycling74.com/downloads You don't need a subscription in order to run the test. After the 30 day trial you can still run any patch but without being able to save.
+
+# Windows users
+
+For the binauralisation functions to work, you will need to place some extra DLL files in your Max install folder. These are in the "Windows Dependencies" folder of the latest release. Depending on the bit-ness you use, these should be placed in either:
+
+ * "C:\Program Files (x86)\Cycling '74\Max" for 32-bit Max,
+ * "C:\Program Files\Cycling '74\Max" for 64-bit Max.
+
 
 ## Calibrating the playback level
 - Before you start the test, you need to calibrate the playback level of your audio interface using the calibration file handrubbing_calibrated.wav, which is included on the top level of the "ObjectiveGradingTest" folder.
@@ -21,9 +23,9 @@ TODO:
 
 ## Opening the test
 
-To launch the listening test please locate the "ObjectiveGradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
+To launch the listening test please locate the "GradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
 
-- If no patcher opens up automatically upon project load, please double click the "GradingTestPilot" patcher from the project menu.
+- If no patcher opens up automatically upon project load, please double click the "main.maxpat" patcher from the project menu.
 
 ![project_location](docs/project_location.png)
 
@@ -41,6 +43,7 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 ## Calibrating the head tracker
 
 - Every time you mount the head tracker to a new position you **need** to follow the following steps in order to calibrate the head tracker.
+- Please note that the head tracker might be drifting during the first minutes of operation. If this is the case, move the head tracker in an figure-of-eight motion for a little bit of time. Alternatively, leave the tracker powered on for a while until it no longer drifts.
 
 1. Position your head looking straight ahead at your screen.
 2. Press the button located on top of the head tracker for longer than 1 second.
@@ -71,38 +74,39 @@ To launch the listening test please locate the "ObjectiveGradingTest.maxproj" an
 ![config_file](docs/config_file.png)
 
 4. Type your name in the name box:
-5. Press **"Start Pilot"**
-5. Press **"Reset and Randomize"**
-6. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
-7. When you are finished, don't forget to press the **"Stop"** button. This will save your results in the "Test_Ouptut" folder.
+5. To start a short practice run press the button labeled  **"Practice"**
+6. Press **"Reset and Randomize"**
+7. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
+8. When you are finished, don't forget to press the **"Stop"** button. This will save your results in the "Test_Ouptut" folder.
+9. To start the main test session deactivate the **"Practice** button and repeat steps 6-8 to complete the test session.
 
 ## Test structure
 
-- The test is split into 6 short sessions, each with a corresponding configuration file beginning with "pilotConfig".
-- For each session, please follow previous steps 3-7 until all sessions are finished.
+- The test is split into 7 short sessions, each with a corresponding configuration file beginning with "Config".
+- For each session, please follow previous steps 3-8 until all sessions are finished.
 
 - You will be presented with a number of test trials, comprised of two listening positions, "A" and "B". The goal of the test is to compare the two stimuli and indicate which one is perceptually greater (wider, further, louder depending on the assessed attribute)
 - Please listen carefully to both stimuli, by clicking on them. (space bar - Play/Pause)
 - To compare the pair of stimuli please drag the slider to the side which corresponds to the stimulus which has a greater magnitude of the assessed attribute (e.g. when comparing A and B, if A has a perceptually larger ASW please drag the slider towards A and vice-versa).
-  - *During the pilot test there will be sliders having either one or three steps on each side of the middle point.
-  - When using the slider with three steps, please rate the magnitude of the change as well (e.g. low/medium/high difference in the perceived ASW between the stimuli).
-  - The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
-
+- The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
 
 -  It is important when comparing the stimuli to focus **only** on the assessed attribute. Please disregard changes in head orientation or position unless the attribute is assessing them.
 
-## Test attributes
+## Test attributes and definitions
 
-- There are 3 attributes to be assessed:
-  * LEV (Listener Envelopment)
-  * ASD (Apparent Source Distance)
-  * PSL (Perceived Source Loudness)
+- There are 7 attributes to be assessed:
 
-**Attribute definitions:**
-
-- LEV:
-  * The feeling of being surrounded by the reverberant field. (Less - More)
-- ASD:
-  * The perceived distance between the listener and the sound source. (Close - Far)
-- PSL:
-  * The point-source loudness perceived at different locations. (Quiet - Loud).
+  * PSL (Perceived Source Loudness):
+    - The point-source loudness perceived at different locations. (Quiet - Loud)
+  * LEV (Listener Envelopment):
+    - The feeling of being surrounded by the reverberant field. (Less - More)
+  * ARW (Apparent Reverb Width):
+    - The perceived impression of width given by the late reverberant field. (Narrow-Wide)
+  * ASD (Apparent Source Distance):
+    - The perceived distance between the listener and the sound source. (Close - Far)
+  * PRL (Perceived Reverb Loudness):
+    - The reverb loudness perceived at different locations.	(Quiet-Loud)
+  * Reverb Brightness:
+    - The timbral characteristics of reverberation depending on the level of high frequencies.	(Bright-Dull)
+  * Echo Brightness:
+    - The timbral characteristics of echoes depending on the level of high frequencies. (Bright-Dull)

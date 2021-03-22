@@ -2,5 +2,5 @@
 	"nPos" : 4,
 	"nSteps" : 30,
 	"attrList" : [ "ASW", "LEV", "ARW" ],
-	"attrDescription" : "Please compare the two stimuli and drag the slider towards the one which has a greater Listener Envelopment"
+	"attrDescription" : "Listener Envelopment"
 }

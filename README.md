@@ -5,7 +5,7 @@
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
 2. Install Max/MSP: https://cycling74.com/downloads You don't need a subscription in order to run the test. After the 30 day trial you can still run any patch but without being able to save.
 
-# Windows users
+### Windows users
 
 For the binauralisation functions to work, you will need to place some extra DLL files in your Max install folder. These are in the "Windows Dependencies" folder of the latest release. Depending on the bit-ness you use, these should be placed in either:
 
@@ -23,9 +23,8 @@ For the binauralisation functions to work, you will need to place some extra DLL
 
 ## Opening the test
 
-To launch the listening test please locate the "GradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
+To launch the listening test please locate the "AttributeGradingTest.maxproj" and open it using Max. **Please note that the test will take a few moments to load, sometimes even up to more than a minute.**
 
-- If no patcher opens up automatically upon project load, please double click the "main.maxpat" patcher from the project menu.
 
 ![project_location](docs/project_location.png)
 
@@ -34,7 +33,7 @@ To launch the listening test please locate the "GradingTest.maxproj" and open it
 
 1. Connect the head tracker to the computer using a USB-Mini-B cable.
 2. Locate the "Head Tracking" section in the upper-left corner of the Max patch.
-3. Select the **"wchusbserial1410"** option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
+3. Select the **"wchusbserial1410"** (for Mac) or **"COMxx"** (for Windows, depending on the serial port used for the tracker) option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
 4. Activate the head tracking by pressing the "Tracker On/Off" button.
 
 ![ht_connect](docs/ht_connect.png)
@@ -73,8 +72,11 @@ To launch the listening test please locate the "GradingTest.maxproj" and open it
 
 ![config_file](docs/config_file.png)
 
-4. Type your name in the name box:
-5. To start a short practice run press the button labeled  **"Practice"**
+4. Type your surname in the name box. Please don't include any special characters in this field (i.e. space, return):
+5. To start a short practice run press the button labeled  **"Practice"**. A red border will indicate that practice mode is active.
+
+![practice](docs/practice.png)
+
 6. Press **"Reset and Randomize"**
 7. When you are ready to start the test press **"Start"**. You can now start the listening test. Please note that the the "Next" and "Previous" options will be disabled until all the sliders are moved.
 8. When you are finished, don't forget to press the **"Stop"** button. This will save your results in the "Test_Ouptut" folder.

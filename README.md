@@ -93,13 +93,14 @@ To launch the listening test please locate the "AttributeGradingTest.maxproj" an
 - The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
 
 -  It is important when comparing the stimuli to focus **only** on the assessed attribute. Please disregard changes in head orientation or position unless the attribute is assessing them.
+- Please don't forget to close your eyes whilst listening to the stimuli. 
 
 ## Test attributes and definitions
 
 - There are 7 attributes to be assessed:
 
   * PSL (Perceived Source Loudness):
-    - The point-source loudness perceived at different locations. (Quiet - Loud)
+    - The perceived loudness of just the sound source. (Quiet - Loud)
   * LEV (Listener Envelopment):
     - The feeling of being surrounded by the reverberant field. (Less - More)
   * ARW (Apparent Reverb Width):
@@ -107,7 +108,7 @@ To launch the listening test please locate the "AttributeGradingTest.maxproj" an
   * ASD (Apparent Source Distance):
     - The perceived distance between the listener and the sound source. (Close - Far)
   * PRL (Perceived Reverb Loudness):
-    - The reverb loudness perceived at different locations.	(Quiet-Loud)
+    - The perceived loudness of just the reverberant field . (Quiet-Loud)
   * Reverb Brightness:
     - The timbral characteristics of reverberation depending on the level of high frequencies.	(Bright-Dull)
   * Echo Brightness:

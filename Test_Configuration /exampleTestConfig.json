@@ -1,6 +1,6 @@
 {
-	"nPos" : 4,
+	"nPos" : 12,
 	"nSteps" : 30,
-	"attrList" : [ "ASW", "LEV", "ARW" ],
+	"attrList" : [ "LEV" ],
 	"attrDescription" : "Listener Envelopment"
 }

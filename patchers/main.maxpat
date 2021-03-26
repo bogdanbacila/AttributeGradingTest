@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 76.0, 79.0, 1545.0, 967.0 ],
+		"rect" : [ 75.0, 79.0, 1811.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -161,7 +161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.0, 278.5, 50.0, 22.0 ],
-					"text" : "31"
+					"text" : "127"
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1093.0, 235.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "8"
 				}
 
 			}
@@ -362,7 +362,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -1420,13 +1419,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1222.0, 507.0, 130.0, 89.0 ],
-									"text" : "\"Listener Envelopment\""
+									"text" : "\"Listener Envelopment( How enveloping...) \""
 								}
 
 							}
@@ -3251,7 +3250,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1229.5, 367.5, 73.0, 22.0 ],
-					"text" : "Bogdan"
+					"text" : "bang"
 				}
 
 			}
@@ -4393,7 +4392,7 @@
 					"patching_rect" : [ 291.0, 1241.5, 44.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 780.1307373046875, 685.0, 43.0, 40.0 ],
-					"text" : "0"
+					"text" : "6"
 				}
 
 			}
@@ -4524,7 +4523,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-227",
 					"maxclass" : "textbutton",
@@ -4541,7 +4539,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-228",
 					"maxclass" : "textbutton",
@@ -6974,6 +6971,45 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "ASW",
+					"varname" : "ASWmess"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "LEV",
+					"varname" : "LEVmess"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-170",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
+					"text" : "ARW",
+					"varname" : "ARWmess"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -7377,6 +7413,30 @@
 					"destination" : [ "obj-149", 0 ],
 					"order" : 0,
 					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"order" : 2,
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"order" : 1,
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"order" : 0,
+					"source" : [ "obj-158", 0 ]
 				}
 
 			}
@@ -8581,6 +8641,13 @@
 				"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "practicePairs.txt",
+				"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/Test_Configuration ",
+				"patcherrelativepath" : "../Test_Configuration ",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

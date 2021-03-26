@@ -2,7 +2,7 @@
 	"name" : "AttributeGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3698843205,
+	"modificationdate" : 3699610141,
 	"viewrect" : [ 1037.0, 165.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -74,6 +74,11 @@
 		}
 ,
 		"media" : 		{
+			"Scale.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"speech_male48k.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -88,16 +93,11 @@
 				}
 
 			}
-,
-			"Scale.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"data" : 		{
-			"pilotPairs.txt" : 			{
+			"practicePairs.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -105,17 +105,17 @@
 		}
 ,
 		"externals" : 		{
-			"multiconvolve~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"sofa~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"sofa.hrir~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"multiconvolve~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}

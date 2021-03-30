@@ -1,0 +1,6 @@
+{
+	"nPos" : 12,
+	"nSteps" : 30,
+	"attrList" : [ "Reverb_Brightness" ],
+	"attrDescription" : "Reverb brightness - Timbral characteristics of the reverberation based on high frequencies."
+}

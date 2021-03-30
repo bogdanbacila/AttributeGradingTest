@@ -2,7 +2,7 @@
 	"name" : "AttributeGradingTest",
 	"version" : 1,
 	"creationdate" : 3695215038,
-	"modificationdate" : 3699610141,
+	"modificationdate" : 3699952633,
 	"viewrect" : [ 1037.0, 165.0, 411.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -86,12 +86,7 @@
 ,
 			"heq702.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Google Drive/PhD/Year 2/AttributeGradingTest/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 
 		}

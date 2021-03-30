@@ -2,5 +2,5 @@
 	"nPos" : 12,
 	"nSteps" : 30,
 	"attrList" : [ "PSL" ],
-	"attrDescription" : "Perceived Source Loudness"
+	"attrDescription" : "Perceived Source Loudness - The perceived loudness of just the sound source. (Quiet - Loud)"
 }

@@ -2,5 +2,5 @@
 	"nPos" : 12,
 	"nSteps" : 30,
 	"attrList" : [ "PRL" ],
-	"attrDescription" : "Perceived Reverb Loudness"
+	"attrDescription" : "Perceived Reverb Loudness - The perceived loudness of just the reverberant field . (Quiet-Loud)"
 }

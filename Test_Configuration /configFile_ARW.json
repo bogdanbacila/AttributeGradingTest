@@ -2,5 +2,5 @@
 	"nPos" : 12,
 	"nSteps" : 30,
 	"attrList" : [ "ARW" ],
-	"attrDescription" : "Apparent Reverb Width"
+	"attrDescription" : "Apparent Reverb Width - The perceived impression of width given by the late reverberant field. (Narrow-Wide)"
 }

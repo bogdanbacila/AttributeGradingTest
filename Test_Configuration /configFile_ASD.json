@@ -2,5 +2,5 @@
 	"nPos" : 12,
 	"nSteps" : 30,
 	"attrList" : [ "ASD" ],
-	"attrDescription" : "Apparent Source Distance"
+	"attrDescription" : "Apparent Source Distance - The perceived distance between the listener and the sound source. (Close - Far)"
 }

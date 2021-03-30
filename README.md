@@ -84,16 +84,16 @@ To launch the listening test please locate the "AttributeGradingTest.maxproj" an
 
 ## Test structure
 
-- The test is split into 7 short sessions, each with a corresponding configuration file beginning with "Config".
-- For each session, please follow previous steps 3-8 until all sessions are finished.
+- The test is split into 7 sessions, each with a corresponding configuration file beginning with "configFile_".
+- For each session, please follow previous steps 3-9 until all sessions are finished.
 
-- You will be presented with a number of test trials, comprised of two listening positions, "A" and "B". The goal of the test is to compare the two stimuli and indicate which one is perceptually greater (wider, further, louder depending on the assessed attribute)
-- Please listen carefully to both stimuli, by clicking on them. (space bar - Play/Pause)
-- To compare the pair of stimuli please drag the slider to the side which corresponds to the stimulus which has a greater magnitude of the assessed attribute (e.g. when comparing A and B, if A has a perceptually larger ASW please drag the slider towards A and vice-versa).
+- You will be presented with a number of test trials, comprised of two listening positions, "A" and "B". The goal of the test is to compare the two stimuli and indicate which one is perceptually greater (wider, further, louder, brighter depending on the assessed attribute)
+- Please listen carefully to both stimuli, by clicking on them or using the keyboard shortcuts (a-for stimulus A, s-for stimulus B). (space bar - Play/Pause)
+- To compare the pair of stimuli please drag the slider to the side which corresponds to the stimulus which has a greater magnitude of the assessed attribute (e.g. when comparing A and B, if A has a perceptually larger LEV please drag the slider towards A and vice-versa).
 - The slider **can not** be left in the centre position. A red border will indicate that it has to be changed, unlocking the next trial.
 
 -  It is important when comparing the stimuli to focus **only** on the assessed attribute. Please disregard changes in head orientation or position unless the attribute is assessing them.
-- Please don't forget to close your eyes whilst listening to the stimuli. 
+- Please don't forget to close your eyes whilst listening to the stimuli.
 
 ## Test attributes and definitions
 

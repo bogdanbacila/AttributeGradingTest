@@ -81,16 +81,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 24.0,
+					"fontsize" : 16.0,
 					"id" : "obj-260",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 705.0, 273.0, 114.0 ],
+					"patching_rect" : [ 326.0, 705.0, 216.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1034.0, 140.5, 347.0, 87.0 ],
+					"presentation_rect" : [ 1056.5, 128.1207275390625, 302.0, 60.0 ],
 					"text" : "Please compare the two stimuli and drag the slider towards the one which has a greater",
 					"textjustification" : 1
 				}
@@ -98,14 +98,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 30.0,
+					"fontsize" : 24.0,
 					"id" : "obj-246",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.5, 647.0, 383.0, 40.0 ],
+					"patching_rect" : [ 225.5, 647.0, 347.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1034.0, 229.5, 347.0, 40.0 ],
+					"presentation_rect" : [ 1056.5, 202.1207275390625, 302.0, 33.0 ],
 					"textjustification" : 1
 				}
 
@@ -178,7 +178,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 701.0, 278.5, 50.0, 22.0 ],
-					"text" : "99"
+					"text" : "127"
 				}
 
 			}
@@ -1121,7 +1121,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1998.5, 243.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2023.5, 255.0, 52.0, 22.0 ],
 					"text" : "r attrList"
 				}
 
@@ -1153,11 +1153,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-165",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1965.5, 309.0, 77.0, 22.0 ]
+					"patching_rect" : [ 1965.5, 309.0, 77.0, 35.0 ],
+					"text" : "Reverb_Brightness"
 				}
 
 			}
@@ -1436,13 +1438,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1222.0, 507.0, 130.0, 89.0 ],
-									"text" : "\"Listener Envelopment( How enveloping...) \""
+									"text" : "\"Reverb brightness - Timbral characteristics of the reverberation based on high frequencies.\""
 								}
 
 							}
@@ -1592,7 +1594,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 960.0, 507.0, 130.0, 22.0 ],
-									"text" : "ASW LEV ARW"
+									"text" : "Reverb_Brightness"
 								}
 
 							}
@@ -1669,7 +1671,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 569.0, 507.0, 130.0, 22.0 ],
-									"text" : "3"
+									"text" : "1"
 								}
 
 							}
@@ -1830,7 +1832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 123.0, 507.0, 130.0, 22.0 ],
-									"text" : "4"
+									"text" : "12"
 								}
 
 							}
@@ -4409,7 +4411,7 @@
 					"patching_rect" : [ 291.0, 1241.5, 44.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 780.1307373046875, 685.0, 43.0, 40.0 ],
-					"text" : "6"
+					"text" : "66"
 				}
 
 			}
@@ -6923,57 +6925,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"varname" : "ASWmess[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "LEV",
-					"varname" : "LEVmess[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-117",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "ARW",
-					"varname" : "ARWmess[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-214",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "ASD_1",
-					"varname" : "ASD_1mess[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 1, 0, 0, 0 ],
 					"id" : "obj-90",
@@ -6985,45 +6936,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 390.36151123046875, 212.062545776367188, 53.63848876953125 ],
 					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-141",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "ASW",
-					"varname" : "ASWmess"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-155",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "LEV",
-					"varname" : "LEVmess"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-170",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 1370.0, 100.0, 22.0 ],
-					"text" : "ARW",
-					"varname" : "ARWmess"
 				}
 
 			}
@@ -7430,30 +7342,6 @@
 					"destination" : [ "obj-149", 0 ],
 					"order" : 0,
 					"source" : [ "obj-156", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-141", 0 ],
-					"order" : 2,
-					"source" : [ "obj-158", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-155", 0 ],
-					"order" : 1,
-					"source" : [ "obj-158", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-170", 0 ],
-					"order" : 0,
-					"source" : [ "obj-158", 0 ]
 				}
 
 			}

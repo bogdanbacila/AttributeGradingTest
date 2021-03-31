@@ -2,5 +2,5 @@
 	"nPos" : 12,
 	"nSteps" : 30,
 	"attrList" : [ "Echo_Brightness" ],
-	"attrDescription" : "Echo Brightness - Timbral characteristics of the echoes based on high frequencies."
+	"attrDescription" : "Echo Brightness - The relative energy of high frequency content."
 }

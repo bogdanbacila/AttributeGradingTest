@@ -14,7 +14,7 @@ For the binauralisation functions to work, you will need to place some extra DLL
 
 
 ## Calibrating the playback level
-- Before you start the test, you need to calibrate the playback level of your audio interface using the calibration file handrubbing_calibrated.wav, which is included on the top level of the "ObjectiveGradingTest" folder.
+- Before you start the test, you need to calibrate the playback level of your audio interface using the calibration file handrubbing_calibrated.wav, which is included on the top level of the "AttributeGradingTest" folder.
 - The file is a recording of hands rubbed at a high strength and moderately high speed.
 
 1. Play the file over the headphones for a few seconds.
@@ -33,7 +33,7 @@ To launch the listening test please locate the "AttributeGradingTest.maxproj" an
 
 1. Connect the head tracker to the computer using a USB-Mini-B cable.
 2. Locate the "Head Tracking" section in the upper-left corner of the Max patch.
-3. Select the **"wchusbserial1410"** (for Mac) or **"COMxx"** (for Windows, depending on the serial port used for the tracker) option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
+3. Select the **"wchusbserialxxxx"** (for Mac) or **"COMxx"** (for Windows, depending on the serial port used for the tracker) option in the dropdown menu; If you can not find the option, press the refresh button and it should now appear. If it still does not appear please make sure that you installed the CH340 drivers correctly and logged out or restarted the machine such that changes were applied.
 4. Activate the head tracking by pressing the "Tracker On/Off" button.
 
 ![ht_connect](docs/ht_connect.png)

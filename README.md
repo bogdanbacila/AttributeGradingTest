@@ -1,5 +1,8 @@
 # Subjective grading test for spatial impression attributes in a concert hall
 
+TODO:
+- [ ] Solve output matrix orientation - needs transposing such that row stimuli are chosen over column simuli. 
+ 
 ## Prerequisites:
 
 1. Install the CH340 USB-Serial driver. Instructions for Mac and Windows are available here: https://sparks.gogo.co.nz/ch340.html
